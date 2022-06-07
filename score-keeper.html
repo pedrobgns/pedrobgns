@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PING PONG</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="columns">
+                <div class="column is-half is-offset-one-quarter">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-2by1">
+                                <img src="https://i.pinimg.com/originals/ee/2b/a2/ee2ba2548268ae117eb2b9a10f1dbb8b.png"
+                                    alt="">
+                            </figure>
+                        </div>
+                        <header class="card-header">
+                            <p class="card-header-title">
+                                PING PONG
+                            </p>
+
+                        </header>
+                        <div class="card-content">
+                            <div class="content">
+                                <h1 class="title is-1"><span id="p1Display">0</span> a <span id="p2Display">0</span>
+                                </h1>
+                                <p class="subtitle">Use os botões abaixo para marcar o placar.</p>
+
+                                <label for="playTo" class="label is-large is-inline">Jogando até </label>
+                                <div class="select is-rounded">
+                                    <select name="" id="playTo">
+                                        <option value="3">3 pontos</option>
+                                        <option value="5">5 pontos</option>
+                                        <option value="7">7 pontos</option>
+                                        <option value="9">9 pontos</option>
+                                        <option value="11">11 pontos</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+
+                        <footer class="card-footer">
+                            <button id="p1Button" class="button card-footer-item is-dark">+1 Player Um</button>
+                            <button id="p2Button" class="button card-footer-item is-dark">+1 Player Dois</button>
+                            <button id="reset" class="button card-footer-item is-light">Resetar</button>
+                        </footer>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
